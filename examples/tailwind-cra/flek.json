@@ -1,0 +1,6 @@
+{
+  "key": "6GFHZGAougFNgcTsDtXC7c",
+  "framework": "tailwind",
+  "csspath": "./src/index.css",
+  "configpath": "./tailwind.config.js"
+}
