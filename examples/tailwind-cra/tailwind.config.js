@@ -5,34 +5,36 @@ module.exports = {
   "theme": {
     "extend": {
       "colors": {
-        "red": {
-          "100": "#eed6d6",
-          "200": "#dcadad",
-          "300": "#cb8383",
-          "400": "#b95a5a",
-          "500": "#a83131",
-          "600": "#862727",
-          "700": "#651d1d",
-          "800": "#431414",
-          "900": "#220a0a"
+        "white": "#ffffff",
+        "primary": "#6963ff",
+        "success": "#319d1f",
+        "surface": "#f3f5f9",
+        "grey": {
+          "500": "#dcdde1",
+          "600": "#8b8d96",
+          "700": "#414759",
+          "800": "#2d3345",
+          "900": "#171718"
         }
       },
       "spacing": {
-        "md": "8px",
-        "sm": "4px"
+        "4": "4px",
+        "12": "12px",
+        "16": "16px",
+        "24": "24px",
+        "36": "36px",
+        "44": "44px",
+        "8px": "8px"
       },
       "borderRadius": {
-        "md": "8px",
-        "sm": "4px"
+        "8": "0px",
+        "24": "24px"
       },
-      "borderWidth": {
-        "md": "2px",
-        "sm": "1px"
-      },
+      "borderWidth": {},
       "boxShadow": {
-        "sha": "0px 4px 4px 0px rgba(0, 0, 0, 1)"
+        "default": "10px 10px 10px 0px rgba(0, 0, 0, 0.75)"
       }
     }
   },
   "plugins": []
-};
+}
