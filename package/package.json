@@ -1,6 +1,6 @@
 {
   "name": "flek",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides a way to sync to tokens from flek figma plugin to code in any framework including tailwind, mantine theme...",
   "main": "index.js",
   "scripts": {

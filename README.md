@@ -8,7 +8,7 @@ Sync tokens from Flek figma token studio to your codebase in one click.
 
 * Open our [Figma Plugin](https://www.figma.com/community/plugin/1214690554806269773/Flek---Create-%26-Sync-your-Design-Tokens) inside that file
 
-* Sync from the plugin to flek backend using sync button at the bottom right
+* Sync from the plugin to flek backend using sync button at the bottom left
 * Copy the file key from profile section of the plugin
 
 * Clone this repo and navigate to an example of your choice

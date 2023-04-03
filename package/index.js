@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const axios = require('axios');
 
-const SERVER_URL = 'http://localhost:3001';
+const SERVER_URL = 'https://flek.ai/api';
 
 const questions = [
   {
@@ -40,7 +40,7 @@ const tailwind_questions = [
 program
   .name('flek')
   .description('Flek Design Token Sync')
-  .version('1.0.3');
+  .version('1.0.4');
 
 program.command('init')
 .description('Initialize the project by selecting framework and filekey')
