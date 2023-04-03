@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const axios = require('axios');
 
-const SERVER_URL = 'https://flek.ai/api';
+const SERVER_URL = 'http://localhost:3001';
 
 const questions = [
   {
@@ -40,7 +40,7 @@ const tailwind_questions = [
 program
   .name('flek')
   .description('Flek Design Token Sync')
-  .version('1.0.2');
+  .version('1.0.3');
 
 program.command('init')
 .description('Initialize the project by selecting framework and filekey')
@@ -62,7 +62,6 @@ program.command('init')
 program.command('sync')
 .description('Sync the tokens from figma file to the code')
 .action((str, options) => {
-  // console.log('Hi, welcome to ⬢ Flek Token Sync');
   fs.readFile('./flek.json', 'utf8', function(err, data){
     if (err) console.log(err);
     else {
@@ -120,7 +119,13 @@ program.command('sync')
           // });
         }
       })
-      .catch(err => console.log(err));
+      .catch(err => {
+        if (err.response && err.response.status === 404) {
+          console.log('No Design System with given File Key found!\n');
+          return;
+        }
+        throw err;
+      });
     };
   });
 });
