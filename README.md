@@ -29,6 +29,13 @@ npx flek sync
 > Below is the workflow to initialize and sync flek.
 ![tailwind-cli](https://github.com/flek-ai/flek/blob/master/images/tailwind-cli.png?raw=true)
 
+```
+./src/index.css
+```
+```
+./tailwind.config.js
+```
+
 * * Note: For changes in tokens in a figma file, sync tokens to flek and pull from npm package using npx flek sync
 * * Note: npx flek init can be run multiple times to initialize using a different figma file
 
