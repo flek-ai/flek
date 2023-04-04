@@ -1,4 +1,4 @@
-# Flek Token Sync Package
+# Flek Tokens
 
 Sync tokens from Flek figma token studio to your codebase in one click.
 
