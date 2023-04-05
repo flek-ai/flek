@@ -15,7 +15,7 @@ Sync tokens from Flek figma plugin to your codebase in one click.
 
 **File key:** Copy the file key from profile section of the plugin
 
-*You can skip the next 2 steps if you have your own codebase*
+*You can skip the next step if you have your own codebase*
 
 **Get Code:**  Clone this repo and navigate to an example of your choice
 
