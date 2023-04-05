@@ -21,7 +21,7 @@ Sync tokens from Flek figma plugin to your codebase in one click.
 
 **Install cli:** To install the flek cli package, run
 ```sh
-npm i flek
+npm i -D flek
 ```
 **Initialize Flek:** To initialize the project with design file, run and enter the copied figma file key
 
