@@ -1,0 +1,31 @@
+{
+  "name": "@flek-ui/utils",
+  "version": "1.0.0",
+  "description": "Utils to convert flek tokens to theme objects of styling frameworks like tailwind, mantine, mui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flek-ai/flek.git"
+  },
+  "keywords": [
+    "flek",
+    "token",
+    "design",
+    "design-system",
+    "figma",
+    "theme",
+    "config",
+    "provider",
+    "tailwind",
+    "mantine"
+  ],
+  "author": "flek.ai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flek-ai/flek/issues"
+  },
+  "homepage": "https://github.com/flek-ai/flek#readme"
+}
