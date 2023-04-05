@@ -41,22 +41,31 @@ Note: This cycle can be repeated to maintain seamless design-code tokens sync
 npm i @flek-ui/utils
 ```
 
+*Follow the steps for your styling framework*
 ### Tailwind:
-To Edit: tailwind.config.js
+Edit: tailwind.config.js
 
 Imports: `tailwindConfig` to extend tailwind config, `tailwindPlugin` to add typography component classes 
 ```js
 const plugin = require("tailwindcss/plugin");
 const { tailwindConfig, tailwindPlugin } = require("@flek-ui/utils");
+// if extend already exists, import
+// const _ = require('lodash');
 
 module.exports = {
-  "content": [
+  content: [
     "./**/*.{js,jsx,ts,tsx}"
   ],
-  "theme": {
-    "extend": tailwindConfig(),
+  theme: {
+    // if no extend already
+    extend: tailwindConfig(),
+    // if extend already exists, write
+    // extend: _.merge({
+    //   <your extend object>,
+    //   tailwindConfig()
+    // }),
   },
-  "plugins": [plugin(tailwindPlugin)]
+  plugins: [plugin(tailwindPlugin)]
 }
 ```
 
