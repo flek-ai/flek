@@ -21,31 +21,23 @@ function App() {
           <div className='w-3/4 flex flex-col gap-44 p-24'>
             <div className='gap-8'>
               <p className="text-grey-600 text-body-md">Full Name</p>
-              <div className='border border-grey-500 p-2'>
-                <p className="text-grey-900 text-body-md">Destiny Gems</p>
-              </div>
+              <input className='border border-grey-500 p-2 w-full text-grey-900 text-body-md' value='Destiny Gems'></input>
             </div>
             <div className='gap-8'>
               <p className="text-grey-600 text-body-md">Email</p>
-              <div className='border border-grey-500 p-2'>
-                <p className="text-grey-900 text-body-md">connect@flek.ai</p>
-              </div>
+              <input className='border border-grey-500 p-2 w-full text-grey-900 text-body-md' value='connect@flek.ai'></input>
             </div>
             <div className='gap-8'>
               <div className='flex justify-between'>
                 <p className="text-grey-600 text-body-md">Password</p>
                 <p className="text-success text-body-md">Success!</p>
               </div>
-              <div className='border border-grey-500 p-2'>
-                <p className="text-grey-900 text-body-md">**********</p>
-              </div>
+              <input className='border border-grey-500 p-2 w-full text-grey-900 text-body-md' value='**********'></input>
             </div>
-            <div className='bg-primary p-16 text-center'>
-              <p className='text-white'>Sign Up</p>
-            </div>
+            <button className='bg-primary p-16 text-center text-white'>Sign Up</button>
             <div className='flex gap-8 justify-center'>
               <p className="text-grey-600 text-body-md">Have an account?</p>
-              <p className="text-success text-body-md">Login</p>
+              <a href='/#' className="text-success text-body-md">Login</a>
             </div>
           </div>
         </div>
