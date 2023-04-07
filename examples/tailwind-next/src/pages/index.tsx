@@ -25,8 +25,8 @@ export default function Home() {
               <p className="text-grey-600 text-body-md">Flek.ai keeps your Design Tokens synced across Figma <br></br> & all your platforms (iOS, Android & Web)</p>
               <div className="bg-grey.500 rounded-24 border-24 pl-44 shadow-default pb-44 border border-black">
                 <Image width='65' height='65' src={'/quote.svg'} alt="quote" className='text-primary'/>
-                <p className="text-primary text-heading-xl pt-44">Let’s flek it!</p>
-                <p className="text-primary text-body-md">Design system in 90% companies <br></br> are broken, let’s flek it!</p>
+                <p className="text-primary text-heading-xl pt-44">Design systems</p>
+                <p className="text-primary text-body-md">Design system in 90% companies <br></br> can be made better</p>
               </div>
             </div>
             <div className="bg-white rounded-24 w-1/2 flex flex-col justify-center gap-36 items-center">
