@@ -29,19 +29,19 @@ export default function Home() {
                 <p className="text-primary text-body-md">Design system in 90% companies <br></br> can be made better</p>
               </div>
             </div>
-            <div className="bg-white rounded-24 w-1/2 flex flex-col justify-center gap-36 items-center">
+            <div className="bg-white rounded-24 w-1/2 flex flex-col justify-center gap-8 items-center">
               <p className="text-grey.900 text-heading-xl">Get started</p>
               <p className="text-grey.600 text-body-md">Create your account now!</p>
               <div className='w-3/4 flex flex-col gap-44 p-24'>
-                <div className='gap-8'>
+                <div className='flex flex-col gap-12'>
                   <p className="text-grey.600 text-body-md">Full Name</p>
                   <input className='rounded-24 border border-grey.500 p-2 w-full text-grey-900 text-body-md' value='Destiny Gems'></input>
                 </div>
-                <div className='gap-8'>
+                <div className='flex flex-col gap-12'>
                   <p className="text-grey.600 text-body-md">Email</p>
                   <input className='rounded-24 border border-grey.500 p-2 w-full text-grey-900 text-body-md' value='connect@flek.ai'></input>
                 </div>
-                <div className='gap-8'>
+                <div className='flex flex-col gap-12'>
                   <div className='flex justify-between'>
                     <p className="text-grey.600 text-body-md">Password</p>
                     <p className="text-sucess text-body-md">Success!</p>
