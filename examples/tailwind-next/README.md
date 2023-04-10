@@ -1,5 +1,11 @@
 # This package comes next, flek and tailwind pre-configured
 
+You just need node and npm to run this example
+- If you are on mac or linux
+```https://github.com/tj/n```
+- If you are windown
+```https://github.com/coreybutler/nvm-windows```
+
 # Package install
 ```
 npm i
