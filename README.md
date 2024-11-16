@@ -1,7 +1,5 @@
 # Flek Tokens Sync Package
 
-### [Flek Figma Plugin](https://www.figma.com/community/plugin/1214690554806269773/Flek---Create-%26-Sync-your-Design-Tokens)
-
 Sync tokens from Flek Figma plugin to your codebase in one click. 
 
 ![banner](https://s3-alpha-sig.figma.com/plugins/1214690554806269773/51965/41059075/833e5074-dda6-4da2-952c-e49e767ab005-cover?Expires=1681689600&Signature=Svr33~~xKWh64fMeyYQrPIJwV5n5r6-28PRkT8MZv6vTtQrPYvnLicrkfFe1zXCuB0uxYFZJIopGKVkPbPgKWFBA3Og6G-bbBJw24XVjk7KdWlNoKq5cDR46e8-R4nA0wyY2zDxwfVBqP9m62uzVjaEEhXQclahRXK6X7a8j9vVNH0gmW3o07-WV-Sb7gdmWcPdJbivY2a39UX8YUE3i-G3nljfU2-WX8ecLhAy2NE7~XUZ49h94oshoUvQcoVrLj72gOf6Xm35mwRYDBA8EhQVlW-obp2EmspGIWDN2XNWna3IaTda9N0ly7EhazFKh5n9UVrmGEXv3Ora6Sg2sFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
